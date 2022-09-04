@@ -2,6 +2,19 @@
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
+## Notes
+
+This is a modified version of the tailwindcss example for Next.js. The following changes have been made to it:
+
+- added i18n object to next.config.js to generate an html tag with language like this:
+
+```html
+<html lang="en"></html>
+```
+
+- added example changes to styles/globals.css
+- added example changes to tailwind.config.js
+
 ## Deploy your own
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
